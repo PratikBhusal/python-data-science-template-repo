@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bandit = "*"
+# black = "==19.10b0" # TODO: Pray for non pre-release version
+flake8 = "*"
+flake8-bugbear = "*"
+flake8-print = "*"
+flake8-todo = "*"
+isort = {extras = ["pipfile"],version = "*"}
+mypy = "*"
+pydocstyle = "*"
+# pylint = "*"
+radon = "*"
+vulture = "*"
+
+[packages]
