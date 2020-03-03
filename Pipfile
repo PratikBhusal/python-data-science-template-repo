@@ -18,5 +18,7 @@ pydocstyle = "*"
 # pylint = "*"
 radon = "*"
 vulture = "*"
+coverage = "*"
+pytest = "*"
 
 [packages]
