@@ -20,5 +20,6 @@ radon = "*"
 vulture = "*"
 coverage = "*"
 pytest = "*"
+sphinx-rtd-theme = "*"
 
 [packages]
