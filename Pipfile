@@ -32,5 +32,6 @@ pytest = "*"
 radon = "*"
 sphinx-rtd-theme = "*"
 vulture = "*"
+line-profiler = "*"
 
 [packages]
