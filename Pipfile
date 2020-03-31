@@ -33,5 +33,6 @@ radon = "*"
 sphinx-rtd-theme = "*"
 vulture = "*"
 line-profiler = "*"
+profilehooks = "*"
 
 [packages]
