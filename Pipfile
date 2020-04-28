@@ -36,3 +36,5 @@ line-profiler = "*"
 profilehooks = "*"
 
 [packages]
+# jupyter = "*"
+# tqdm = "*"
