@@ -2,3 +2,6 @@
 show_missing=True
 skip_covered=True
 skip_empty=True
+
+[run]
+branch=True
