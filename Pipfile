@@ -4,10 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-bandit = "*"
 black = "==19.10b0" # TODO: Pray for non pre-release version
-coverage = "*"
-flake8 = "*"
 flake8-bandit = "*"
 flake8-bugbear = "*"
 flake8-builtins = "*"
@@ -23,18 +20,15 @@ flake8-self = "*"
 flake8-strict = "*"
 flake8-todo = "*"
 flake8-variables-names = "*"
-isort = {extras = ["pipfile"],version = "*"}
+flake8 = "*"
+isort = "*"
 line-profiler = "*"
-mypy = "*"
 pep8-naming = "*"
-profilehooks = "*"
-pydocstyle = "*"
-# pylint = "*"
+pipfile = "*"
 pytest = "*"
+profilehooks = "*"
+# pylint = "*"
 pytest-cov = "*"
-radon = "*"
-sphinx-rtd-theme = "*"
-vulture = "*"
 
 [packages]
 # jupyter = "*"
