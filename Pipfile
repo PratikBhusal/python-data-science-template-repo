@@ -4,31 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "==19.10b0" # TODO: Pray for non pre-release version
-flake8-bandit = "*"
-flake8-bugbear = "*"
-flake8-builtins = "*"
-flake8-coding = "*"
-flake8-comprehensions = "*"
-flake8-isort = "*"
-flake8-pie = "*"
-flake8-print = "*"
-flake8-pytest = "*"
-flake8-pytest-style = "*"
-flake8-requirements = "*"
-flake8-self = "*"
-flake8-strict = "*"
-flake8-todo = "*"
-flake8-variables-names = "*"
-flake8 = "*"
-isort = "*"
-line-profiler = "*"
-pep8-naming = "*"
-pipfile = "*"
-pytest = "*"
 profilehooks = "*"
 # pylint = "*"
-pytest-cov = "*"
+numpy-stubs = {editable = true,git = "https://github.com/numpy/numpy-stubs.git"}
 
 [packages]
 # jupyter = "*"

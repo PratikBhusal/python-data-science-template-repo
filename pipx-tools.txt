@@ -1,39 +1,46 @@
 venvs are in $HOME/.local/pipx/venvs
 apps are exposed on your $PATH at $HOME/.local/bin
-   package bandit 1.6.2, Python 3.8.2
-    - bandit
-    - bandit-baseline
-    - bandit-config-generator
    package black 19.10b0, Python 3.8.2
     - black
     - blackd
-   package coverage 5.1, Python 3.8.2
-    - coverage
-    - coverage-3.8
-    - coverage3
-   package grip 4.5.2, Python 3.8.2
-    - grip
+   package cookiecutter 1.7.2, Python 3.8.2
+    - cookiecutter
+   package flake8 3.7.9, Python 3.8.2
+    - flake8
+    Injected Packages:
+      - flake8-bandit
+      - flake8-bugbear
+      - flake8-builtins
+      - flake8-coding
+      - flake8-comprehensions
+      - flake8-isort
+      - flake8-pie
+      - flake8-print
+      - flake8-pytest
+      - flake8-pytest-style
+      - flake8-requirements
+      - flake8-self
+      - flake8-strict
+      - flake8-todo
+      - flake8-variables-names
+      - pep8-naming
+      - radon
    package ipython 7.14.0, Python 3.8.2
     - iptest
     - iptest3
     - ipython
     - ipython3
-   package jupyter 1.0.0, Python 3.8.2
-    - jsonschema
-    - jupyter
-    - jupyter-bundlerextension
-    - jupyter-console
-    - jupyter-kernel
-    - jupyter-kernelspec
-    - jupyter-migrate
-    - jupyter-nbconvert
-    - jupyter-nbextension
-    - jupyter-notebook
-    - jupyter-qtconsole
-    - jupyter-run
-    - jupyter-serverextension
-    - jupyter-troubleshoot
-    - jupyter-trust
+   package isort 4.3.21, Python 3.8.2
+    - isort
+    Injected Packages:
+      - pipfile
+   package line-profiler 3.0.2, Python 3.8.2
+    - kernprof
+   package mkdocs 1.1, Python 3.8.2
+    - mkdocs
+    Injected Packages:
+      - mkdocs-material
+      - mkdocs-rtd-dropdown
    package mypy 0.770, Python 3.8.2
     - dmypy
     - mypy
@@ -43,25 +50,17 @@ apps are exposed on your $PATH at $HOME/.local/bin
    package pipenv 2018.11.26, Python 3.8.2
     - pipenv
     - pipenv-resolver
-   package radon 4.1.0, Python 3.8.2
-    - radon
-   package sphinx-rtd-theme 0.4.3, Python 3.8.2
-    - chardetect
-    - pybabel
-    - pygmentize
-    - rst2html.py
-    - rst2html4.py
-    - rst2html5.py
-    - rst2latex.py
-    - rst2man.py
-    - rst2odt.py
-    - rst2odt_prepstyles.py
-    - rst2pseudoxml.py
-    - rst2s5.py
-    - rst2xetex.py
-    - rst2xml.py
-    - rstpep2html.py
+   package pytest 5.4.1, Python 3.8.2
+    - py.test
+    - pytest
+    Injected Packages:
+      - pytest-cov
+   package sphinx 3.0.3, Python 3.8.2
     - sphinx-apidoc
     - sphinx-autogen
     - sphinx-build
     - sphinx-quickstart
+    Injected Packages:
+      - sphinx-rtd-theme
+   package vulture 1.4, Python 3.8.2
+    - vulture
