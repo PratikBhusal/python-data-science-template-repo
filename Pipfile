@@ -6,8 +6,9 @@ verify_ssl = true
 [dev-packages]
 profilehooks = "*"
 # pylint = "*"
-numpy-stubs = {editable = true,git = "https://github.com/numpy/numpy-stubs.git"}
+numpy-stubs = {git = "https://github.com/numpy/numpy-stubs.git"}
 
 [packages]
 # jupyter = "*"
 # tqdm = "*"
+# click = "*"
