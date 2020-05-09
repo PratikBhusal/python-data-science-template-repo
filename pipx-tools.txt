@@ -9,6 +9,7 @@ apps are exposed on your $PATH at $HOME/.local/bin
     - flake8
     Injected Packages:
       - flake8-bandit
+      - flake8-black
       - flake8-bugbear
       - flake8-builtins
       - flake8-coding
