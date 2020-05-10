@@ -1,3 +1,9 @@
+Default Python Template
+================================================================================
+
+[pipxproject/pipx]  Programs
+--------------------------------------------------------------------------------
+```
 venvs are in $HOME/.local/pipx/venvs
 apps are exposed on your $PATH at $HOME/.local/bin
    package black 19.10b0, Python 3.8.2
@@ -65,3 +71,6 @@ apps are exposed on your $PATH at $HOME/.local/bin
       - sphinx-rtd-theme
    package vulture 1.4, Python 3.8.2
     - vulture
+```
+
+[pipxproject/pipx]: https://github.com/pipxproject/pipx
