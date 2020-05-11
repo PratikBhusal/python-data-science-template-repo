@@ -57,11 +57,8 @@ apps are exposed on your $PATH at $HOME/.local/bin
    package pipenv 2018.11.26, Python 3.8.2
     - pipenv
     - pipenv-resolver
-   package pytest 5.4.1, Python 3.8.2
-    - py.test
-    - pytest
-    Injected Packages:
-      - pytest-cov
+   package poetry 1.0.5, Python 3.8.2
+    - poetry
    package sphinx 3.0.3, Python 3.8.2
     - sphinx-apidoc
     - sphinx-autogen

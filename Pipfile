@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 profilehooks = "*"
 # pylint = "*"
+pytest-cov = "*"
 numpy-stubs = {git = "https://github.com/numpy/numpy-stubs.git"}
 
 [packages]
