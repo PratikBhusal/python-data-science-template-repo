@@ -32,11 +32,6 @@ apps are exposed on your $PATH at $HOME/.local/bin
       - flake8-variables-names
       - pep8-naming
       - radon
-   package ipython 7.14.0, Python 3.8.2
-    - iptest
-    - iptest3
-    - ipython
-    - ipython3
    package isort 4.3.21, Python 3.8.2
     - isort
     Injected Packages:
@@ -48,12 +43,6 @@ apps are exposed on your $PATH at $HOME/.local/bin
     Injected Packages:
       - mkdocs-material
       - mkdocs-rtd-dropdown
-   package mypy 0.770, Python 3.8.2
-    - dmypy
-    - mypy
-    - mypyc
-    - stubgen
-    - stubtest
    package pipenv 2018.11.26, Python 3.8.2
     - pipenv
     - pipenv-resolver

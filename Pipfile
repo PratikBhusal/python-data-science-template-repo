@@ -13,6 +13,7 @@ profilehooks = "*"
 pytest-cov = "*"
 pytest-profiling = "*"
 pytest-watch = "*"
+mypy = "*"
 
 [packages]
 # jupyter = "*"
