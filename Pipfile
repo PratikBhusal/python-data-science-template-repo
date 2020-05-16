@@ -4,10 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+hypothesis = "*"
+ipdb = "*"
+numpy-stubs = {editable = true, git = "https://github.com/numpy/numpy-stubs.git"}
 profilehooks = "*"
 # pylint = "*"
+# pytest-cookies = "*"
 pytest-cov = "*"
-numpy-stubs = {git = "https://github.com/numpy/numpy-stubs.git"}
+pytest-profiling = "*"
+pytest-watch = "*"
 
 [packages]
 # jupyter = "*"
