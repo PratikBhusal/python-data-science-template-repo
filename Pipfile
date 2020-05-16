@@ -14,6 +14,7 @@ pytest-cov = "*"
 pytest-profiling = "*"
 pytest-watch = "*"
 mypy = "*"
+pre-commit = "*"
 
 [packages]
 # jupyter = "*"
